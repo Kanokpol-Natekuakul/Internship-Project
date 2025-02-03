@@ -1,0 +1,141 @@
+/* พื้นฐาน */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* ส่วนหัว */
+.navbar {
+    
+    background-color: #7a3dff; /* Deep purple */
+}
+
+.navbar-dark .navbar-brand {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+    font-weight: 500;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+}
+
+/* Navbar Hover Effect */
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #7a3dff;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(122, 61, 255, 0.3); /* Purple shadow */
+}
+.navbar-nav .dropdown-menu {
+    background-color: #7a3dff; /* เปลี่ยนเป็นสีม่วง */
+}
+
+.navbar-nav .dropdown-item {
+    color: #fff;
+}
+
+.navbar-nav .dropdown-item:hover {
+    background-color: #5202ff; /* เฉดเข้มของสีม่วงเมื่อ hover */
+}
+
+
+/* ปุ่ม */
+.btn {
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #7a3dff; /* เปลี่ยนเป็นสีม่วง */
+    border-color: #7a3dff;
+}
+
+.btn-primary:hover {
+    background-color: #5202ff; /* เฉดเข้มของสีม่วงเมื่อ hover */
+}
+
+/* การ์ด */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+/* ปฏิทิน */
+#calendar {
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* ตาราง */
+.table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #7a3dff; /* เปลี่ยนเป็นสีม่วง */
+    color: #fff;
+}
+table {
+    width: 100%;
+    border-collapse: collapse; /* ทำให้เส้นขอบติดกัน */
+}
+
+th {
+    background-color: #6f42c1; /* สีม่วงสำหรับหัวตาราง */
+    color: #ffffff; /* สีตัวอักษรในหัวตาราง */
+}
+
+td, th {
+    border: 1px solid #dee2e6; /* เส้นขอบสีเทาอ่อน */
+    padding: 1px; /* ช่องว่างในเซลล์ */
+    text-align: center; /* จัดกลาง */
+}
+
+/* สไตล์สำหรับข้อความแจ้งเตือน */
+.modal-content {
+    background-color: #ffffff; /* พื้นหลังสีขาวสำหรับ modal */
+    border: 1px solid #6f42c1; /* สีกรอบ modal */
+}
+
+.modal-header {
+    background-color: #6f42c1; /* สีม่วงสำหรับส่วนหัวของ modal */
+    color: #ffffff; /* สีตัวอักษร */
+}
+
+.modal-footer .btn-secondary {
+    background-color: #6f42c1; /* สีม่วงสำหรับปุ่มใน modal */
+    color: #ffffff; /* สีตัวอักษร */
+}
+
+/* Footer */
+footer {
+    background-color: #7a3dff; /* เปลี่ยนเป็นสีม่วง */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0;
+}
